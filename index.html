@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Planet Shop</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap");
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-weight: bold;
+        color: white;
+        font-family: "Montserrat", sans-serif;
+        text-transform: uppercase;
+      }
+      body {
+        background-color: #302d2d;
+      }
+
+      header {
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 2px solid black;
+      }
+
+      ul {
+        display: flex;
+        list-style-type: none;
+        margin: 20px;
+      }
+
+      ul li a {
+        margin: 0px 5px;
+        border: 2px solid white;
+        border-radius: 5px;
+        padding: 2px 10px;
+        text-decoration: none;
+      }
+      .logo {
+        /* border: 2px solid white; */
+        /* height: 2px; */
+        /* width: 2px; */
+      }
+
+      #img1 {
+        border: 2px solid black;
+        border-radius: 10px;
+        height: 80px;
+        width: 300px;
+        background-color: white;
+        padding: 10px;
+      }
+
+      .sign-up {
+        background-color: white;
+        color: black;
+      }
+
+      .sign-up:hover {
+        background-color: black;
+        color: white;
+      }
+
+      main {
+        display: flex;
+        /* align-items: center; */
+        justify-content: space-around;
+        margin: 0 10px;
+        flex-wrap: wrap;
+      }
+       
+      main h2 {
+        font-size: 30px;
+      }
+     
+      main p {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 25px;
+        /* margin: 0px 0px; */
+      }
+
+
+      .contentleft {
+        padding-top: 50px;
+        padding-left: 10px;
+        flex: 1;
+      }
+
+      .contentmid {
+        /* padding: 20px; */
+        margin-top: 50px;
+        padding-right: 100px;
+        flex: 2;
+      }
+      
+      .contentright {
+        flex: 1;
+        margin-top: 50px;
+      }
+
+      .merc {
+        border: 2px solid white;
+        max-width: 350px;
+        height: auto;
+      }
+
+      .btn {
+        padding: 15px 30px;
+        background: white;
+        outline: none;
+        border: none;
+        color: black;
+        border-radius: 50px;
+      }
+      .btn:hover {
+        background-color: #302d2d;
+        color: white;
+        border: 2px solid white;
+      }
+
+      </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo"><img src="img/Planet_logo.png" alt="logo" id="img1" /></div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Offers</a></li>
+          <li><a href="#">Buy Now</a></li>
+          <li><a href="#">Sell Now</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#" class="sign-up">Sign Up</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="contentleft">
+        <h2>Mercury🌍</h2>
+      </div>
+      <div class="contentmid">
+        <p>
+          🌑 Mercury: The Swift and Scorching Gem of the Solar System Looking
+          for a planet that’s bold, blazing, and utterly unique? Mercury is your
+          ticket to the ultimate celestial experience. <br>🔥 Key Features: -
+          Closest to the Sun: Bask in the glory of solar proximity—Mercury
+          orbits just 58 million km from our star. <br> - Extreme Temperatures:
+          Experience wild thermal swings—daytime highs soar to 430°C, while
+          nights plunge to -180°C. Perfect for thrill-seekers.  <br> - Compact &
+          Mighty: At just 4,879 km in diameter, Mercury is the smallest planet
+          in the solar system—but don’t let its size fool you. It’s dense,
+          iron-rich, and packed with personality. <br> - No Atmosphere, No Problem:
+          With virtually no atmosphere, Mercury offers unobstructed views of
+          space and zero weather interruptions.
+        </p>
+        <button class="btn">Buy Now</button>
+      </div>
+      <div class="contentright">
+        <img src="img/image.png" alt="mercuryimage" class="merc">
+      </div>
+    </main>
+  </body>
+</html>
